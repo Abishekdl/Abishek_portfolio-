@@ -22,7 +22,7 @@ A modern, responsive portfolio website showcasing my journey as a developer, bui
 
 ## 📱 Sections
 
-- **Hero** - Interactive introduction with 3D animation
+- **Main** - Interactive introduction with 3D animation
 - **About** - Creative personal story and skills overview
 - **Skills** - Comprehensive technical skills showcase
 - **Projects** - Featured projects with live demos and GitHub links
@@ -53,78 +53,3 @@ A modern, responsive portfolio website showcasing my journey as a developer, bui
    npm run build
    ```
 
-## 📂 Project Structure
-
-```
-src/
-├── components/          # React components
-│   ├── Header.tsx      # Navigation header
-│   ├── Hero.tsx        # Hero section with 3D animation
-│   ├── About.tsx       # About section
-│   ├── Skills.tsx      # Skills showcase
-│   ├── Projects.tsx    # Projects portfolio
-│   ├── LearningPath.tsx # Learning journey timeline
-│   ├── Achievements.tsx # Achievements and certifications
-│   ├── Contact.tsx     # Contact information
-│   └── TypewriterEffect.tsx # Typewriter animation
-├── context/            # React context
-│   └── ThemeContext.tsx # Dark/light mode context
-├── App.tsx            # Main app component
-├── main.tsx           # App entry point
-└── index.css          # Global styles
-```
-
-## 🎨 Key Features
-
-### Interactive 3D Animation
-- Custom 3D laptop model with floating code particles
-- Smooth rotation and hover effects
-- Responsive 3D canvas
-
-### Advanced Animations
-- Typewriter effect for dynamic text
-- Staggered animations for content reveal
-- Smooth scroll-triggered animations
-- Hover effects and micro-interactions
-
-### Modern Design
-- Glassmorphism UI elements
-- Gradient backgrounds and text
-- Consistent spacing system (8px grid)
-- Professional color palette
-
-### Performance
-- Optimized bundle size
-- Lazy loading for heavy components
-- Efficient re-renders with React best practices
-
-## 🌐 Deployment
-
-This portfolio is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow:
-
-1. Triggers on push to main branch
-2. Installs dependencies and builds the project
-3. Deploys to GitHub Pages
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Connect with Me
-
-- **Email**: abishek@example.com
-- **LinkedIn**: [linkedin.com/in/abishek](https://linkedin.com/in/abishek)
-- **GitHub**: [github.com/abishek](https://github.com/abishek)
-
-## 🙏 Acknowledgments
-
-- **React Three Fiber** for 3D graphics capabilities
-- **Framer Motion** for smooth animations
-- **Tailwind CSS** for rapid styling
-- **Lucide React** for beautiful icons
-
----
-
-**Built with ❤️ using React and lots of ☕**
-
-*Actively seeking opportunities to contribute and grow in the tech industry.*
