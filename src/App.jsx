@@ -10,7 +10,6 @@ import LearningJourney from './components/LearningJourney'
 import Projects from './components/Projects'
 import Certificates from './components/Certificates'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
 import { ReactLenis, useLenis } from 'lenis/react'
 import gsap from 'gsap'
 
@@ -80,7 +79,6 @@ export default function App() {
           <Certificates />
           <Contact />
         </main>
-        <Footer />
       </motion.div>
     </ReactLenis>
   )
